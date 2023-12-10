@@ -15,7 +15,7 @@ The added embedding vector can be expected to slightly improve performance, but 
 ***
 If you install all the libraries in requirements.txt and run yt_downloads.py, you can receive the sign language video provided in the original GitHub link. If an error occurs, it will be resolved by setting the python version to 3.10 and upgrading all installed libraries to the latest.
 ***
-After executing train.py, press the r key to start motion recognition. Please refer to the downloaded sign language video for motion. Since the algorithm operates based on the CPU, it may not work smoothly if your computer does not provide sufficient performance.
+After executing main.py, press the r key to start motion recognition. Please refer to the downloaded sign language video for motion. Since the algorithm operates based on the CPU, it may not work smoothly if your computer does not provide sufficient performance.
 Unlike existing codes, I used additional facial landmarks, so it may not work if the face is not recognized. Therefore, your face must appear on the screen for the function to work. Also, for the same reason, screenshots of operations are omitted.
 ***
 ![result](https://github.com/stellacustodis/SignLanguage/assets/104292502/689094f9-3677-48dd-ae35-d6d99f81d8ab)
